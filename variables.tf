@@ -1,7 +1,6 @@
 variable "token" {
   type = string
 }
-
 variable "selected_regions" {
   type = set(string)
   default = ["Bangalore"]  

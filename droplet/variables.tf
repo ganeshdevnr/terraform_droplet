@@ -2,6 +2,10 @@ variable "selected_image_key" {
   type    = string
 }
 
+variable "fingerprint" {
+  type = string
+  sensitive = true
+}
 variable "selected_size_key" {
   type    = string
 }
